@@ -14,7 +14,7 @@ export default function Register() {
 				<p className="text-zinc-800 text-sm">Please enter your details.</p>
 			</div>
 
-			<form className="space-y-4">
+			<form action="/login" className="space-y-4">
 				<div className="grid grid-cols-2 gap-4">
 					<Input type="text" label="First name" />
 					<Input type="text" label="Last name" />

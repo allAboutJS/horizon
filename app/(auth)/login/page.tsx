@@ -16,7 +16,7 @@ export default function Login() {
 				</p>
 			</div>
 
-			<form className="space-y-4">
+			<form action="/dashboard" className="space-y-4">
 				<Input type="email" label="Email" />
 				<Input type="password" label="Password" />
 
