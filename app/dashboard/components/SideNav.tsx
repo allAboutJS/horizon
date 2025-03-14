@@ -62,7 +62,7 @@ function Nav() {
   );
 }
 
-function NavItem({ href, Icon, text }: { href: string; Icon: () => JSX.Element; text: string }) {
+function NavItem({ href, Icon, text }: { href: string; Icon: () => React.ReactNode; text: string }) {
   return (
     <Link href={href} className="flex items-center gap-2 p-2 rounded-md hover:bg-blue-100">
       <Icon /> {text}
